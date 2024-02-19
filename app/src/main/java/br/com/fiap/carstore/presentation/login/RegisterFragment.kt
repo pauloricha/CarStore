@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import br.com.fiap.carstore.R
-import br.com.fiap.carstore.Util.CodeErrorEnum
+import br.com.fiap.carstore.util.CodeErrorEnum
 import br.com.fiap.carstore.databinding.FragmentRegisterBinding
 import br.com.fiap.carstore.domain.AuthState
 
@@ -49,6 +49,7 @@ class RegisterFragment : Fragment() {
         loginViewModel.authState.observe(viewLifecycleOwner) { authState ->
             when(authState) {
                 is AuthState.Success -> {
+                    Toast.makeText(context, resources.getString(R.string.txt_user_registered), Toast.LENGTH_SHORT).show()
                     findNavController().navigate(R.id.action_RegisterFragment_to_LoginFragment)
                 }
                 is AuthState.Error -> {

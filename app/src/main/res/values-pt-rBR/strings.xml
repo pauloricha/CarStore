@@ -27,4 +27,6 @@
     <string name="txt_brand_title">"Marca: "</string>
     <string name="txt_model_title">"Modelo: "</string>
     <string name="txt_color_title">"Cor: "</string>
+    <string name="txt_no_cars_registered">Nenhum carro cadastrado, clique no botão + para adicionar</string>
+    <string name="txt_user_registered">Usuário registrado com sucesso</string>
 </resources>

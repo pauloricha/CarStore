@@ -1,6 +1,6 @@
 package br.com.fiap.carstore.domain
 
-import br.com.fiap.carstore.Util.CodeErrorEnum
+import br.com.fiap.carstore.util.CodeErrorEnum
 
 sealed class AuthState {
     object Idle : AuthState()

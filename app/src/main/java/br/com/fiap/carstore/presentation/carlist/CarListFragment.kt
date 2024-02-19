@@ -75,9 +75,18 @@ class CarListFragment : Fragment() {
         layoutManager = LinearLayoutManager(context)
     }
 
-    private fun initObserver() {
+    private fun initObserver() = with(binding) {
         carViewModel.cars.observe(viewLifecycleOwner) { cars ->
-            cars?.let { carListAdapter.submitList(cars) }
+            cars?.let {
+                if (it.isNotEmpty()) {
+                    title.visibility = View.GONE
+                    rvCars.visibility = View.VISIBLE
+                } else {
+                    title.visibility = View.VISIBLE
+                    rvCars.visibility = View.GONE
+                }
+                carListAdapter.submitList(cars)
+            }
         }
     }
 

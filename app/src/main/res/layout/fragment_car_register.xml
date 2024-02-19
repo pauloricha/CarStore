@@ -55,7 +55,7 @@
             android:layout_margin="@dimen/dimen_16"
             android:layout_gravity="center"
             android:enabled="false"
-            android:text="@string/txt_sign_up" />
+            android:text="@string/txt_save" />
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 </androidx.core.widget.NestedScrollView>

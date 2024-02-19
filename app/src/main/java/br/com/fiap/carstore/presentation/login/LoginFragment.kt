@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import br.com.fiap.carstore.R
-import br.com.fiap.carstore.Util.CodeErrorEnum
+import br.com.fiap.carstore.util.CodeErrorEnum
 import br.com.fiap.carstore.databinding.FragmentLoginBinding
 import br.com.fiap.carstore.domain.AuthState
 import com.google.firebase.auth.FirebaseAuth

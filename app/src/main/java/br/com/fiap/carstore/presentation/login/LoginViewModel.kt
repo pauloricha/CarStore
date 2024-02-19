@@ -4,8 +4,8 @@ import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import br.com.fiap.carstore.Util.CodeErrorEnum
-import br.com.fiap.carstore.Util.isValidEmail
+import br.com.fiap.carstore.util.CodeErrorEnum
+import br.com.fiap.carstore.util.isValidEmail
 import br.com.fiap.carstore.domain.AuthState
 import com.google.firebase.auth.FirebaseAuth
 

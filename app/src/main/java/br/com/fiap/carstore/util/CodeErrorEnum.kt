@@ -1,4 +1,4 @@
-package br.com.fiap.carstore.Util
+package br.com.fiap.carstore.util
 
 enum class CodeErrorEnum {
     INVALID_EMAIL,
