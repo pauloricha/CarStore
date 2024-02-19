@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Loja de Carros</string>
+    <string name="login_fragment_label">Login</string>
+    <string name="register_fragment_label">Cadastrar</string>
+    <string name="car_list_fragment_label">Minha Loja de Carros</string>
+    <string name="car_register_fragment_label">Cadastrar carro</string>
+    <string name="car_edit_fragment_label">Editar carro</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_password">Senha</string>
+    <string name="txt_login">Login</string>
+    <string name="txt_sign_in">Logar</string>
+    <string name="txt_sign_up">Cadastrar</string>
+    <string name="txt_do_not_have_account">Ainda não possui uma conta?</string>
+    <string name="txt_do_you_already_have_account">Você já possui uma conta?</string>
+    <string name="txt_invalid_email">Email inválido</string>
+    <string name="txt_must_enter_password">Você deve inserir a senha</string>
+    <string name="txt_delete_this_car">Você quer apagar esse carro?</string>
+    <string name="txt_delete">Apagar</string>
+    <string name="txt_cancel">Cancelar</string>
+    <string name="txt_want_to_log_out">Você quer sair?</string>
+    <string name="txt_yes">Sim</string>
+    <string name="txt_brand">Marca</string>
+    <string name="txt_model">Modelo</string>
+    <string name="txt_color">Cor</string>
+    <string name="txt_save">Salvar</string>
+    <string name="txt_brand_title">"Marca: "</string>
+    <string name="txt_model_title">"Modelo: "</string>
+    <string name="txt_color_title">"Cor: "</string>
+</resources>

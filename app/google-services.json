@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "797868648713",
+    "project_id": "carstorefiap",
+    "storage_bucket": "carstorefiap.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797868648713:android:6572f2ffe8d6b2622e4bd8",
+        "android_client_info": {
+          "package_name": "br.com.fiap.carstore"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn_9cZ4XdgQaZo5vTkQXWxxEqJobG90kA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

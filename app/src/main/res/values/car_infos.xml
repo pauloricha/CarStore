@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="brands_car_array">
+        <item> </item>
+        <item>Fiat</item>
+        <item>Honda</item>
+        <item>Hyundai</item>
+        <item>Volkswagen</item>
+    </string-array>
+
+    <string-array name="fiat_models_array">
+        <item>Argo</item>
+        <item>Fastback</item>
+        <item>Mobi</item>
+        <item>Pulse</item>
+        <item>Strada</item>
+        <item>Toro</item>
+    </string-array>
+
+    <string-array name="honda_models_array">
+        <item>City</item>
+        <item>Civic</item>
+        <item>HR-V</item>
+        <item>ZR-V</item>
+    </string-array>
+
+    <string-array name="hyundai_models_array">
+        <item>Azera</item>
+        <item>Creta</item>
+        <item>HB20</item>
+        <item>Tucson</item>
+    </string-array>
+
+    <string-array name="volkswagen_models_array">
+        <item>Gol</item>
+        <item>Nivus</item>
+        <item>Polo</item>
+        <item>T-Cross</item>
+        <item>Virtus</item>
+    </string-array>
+
+    <string-array name="colors_array">
+        <item>Amarelo</item>
+        <item>Azul</item>
+        <item>Branco</item>
+        <item>Cinza</item>
+        <item>Vermelho</item>
+    </string-array>
+</resources>

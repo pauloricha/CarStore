@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LoginFragment">
+
+    <fragment
+        android:id="@+id/LoginFragment"
+        android:name="br.com.fiap.carstore.presentation.login.LoginFragment"
+        android:label="@string/login_fragment_label"
+        tools:layout="@layout/fragment_login">
+
+        <action
+            android:id="@+id/action_LoginFragment_to_RegisterFragment"
+            app:destination="@id/RegisterFragment" >
+        </action>
+
+        <action
+            android:id="@+id/action_LoginFragment_to_CarListFragment"
+            app:destination="@id/CarListFragment" >
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/RegisterFragment"
+        android:name="br.com.fiap.carstore.presentation.login.RegisterFragment"
+        android:label="@string/register_fragment_label"
+        tools:layout="@layout/fragment_register">
+
+        <action
+            android:id="@+id/action_RegisterFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" >
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/CarListFragment"
+        android:name="br.com.fiap.carstore.presentation.carlist.CarListFragment"
+        android:label="@string/car_list_fragment_label"
+        tools:layout="@layout/fragment_car_list">
+
+        <action
+            android:id="@+id/action_CarListFragment_to_CarRegisterFragment"
+            app:destination="@id/CarRegisterFragment" >
+        </action>
+
+        <action
+            android:id="@+id/action_CarListFragment_to_LoginFragment"
+            app:destination="@id/LoginFragment" >
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/CarRegisterFragment"
+        android:name="br.com.fiap.carstore.presentation.carlist.CarRegisterFragment"
+        android:label="@string/car_register_fragment_label"
+        tools:layout="@layout/fragment_car_register">
+
+        <action
+            android:id="@+id/action_CarRegisterFragment_to_CarListFragment"
+            app:destination="@id/CarListFragment" />
+    </fragment>
+</navigation>
